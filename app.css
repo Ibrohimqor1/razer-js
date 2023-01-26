@@ -1,0 +1,60 @@
+.root{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+}
+body{
+    background: black;
+}
+.card{ 
+    width: 250px;
+    height: 320px;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+img{
+    width: 80%;
+    padding-top: 20px;
+}
+h1{
+    color: #fff;
+    font-size: 12px;
+}
+p{
+    color: #fff;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background: #000;
+    border: 1px solid green;
+    color: rgb(244, 239, 239);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* button{
+    background-color: transparent;
+    border: 2px solid green;
+    width: 25px;
+    height: 25px;
+
+} */
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
